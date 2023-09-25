@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(img/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+    height: 100vh;
+    position: relative;
+
+}
+
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 505px;
+    width: 250px;
+    background: blue url(img/pacote-d013/imagens/phone.png) no-repeat;
+}
