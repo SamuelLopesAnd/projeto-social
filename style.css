@@ -32,7 +32,16 @@ section#telefone{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 505px;
-    width: 250px;
-    background: blue url(img/pacote-d013/imagens/phone.png) no-repeat;
+    height: 625px;
+    width: 310px;
+    background: url(img/pacote-d013/imagens/phone.png) no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 64px;
+    left: 15px;
+
+    width: 217px;
+    height: 380px;
 }
